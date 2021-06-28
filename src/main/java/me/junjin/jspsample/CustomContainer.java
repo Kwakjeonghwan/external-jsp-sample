@@ -7,6 +7,7 @@ import org.springframework.stereotype.Component;
 import java.io.File;
 
 @Component
+// SpringBoot JSP 외부에 DocumentRoot 설정 방법
 public class CustomContainer implements WebServerFactoryCustomizer<TomcatServletWebServerFactory> {
     @Override
     public void customize(TomcatServletWebServerFactory factory) {
